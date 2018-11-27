@@ -1,0 +1,36 @@
+/* actually matters */
+.Glyphline{
+  display: flex;
+  justify-content: space-between;
+}
+.line-r{
+    transform: rotate(180deg);
+}
+
+/* doesn't really */
+body{
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+#root{
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.text{
+  width: 80%;
+}
+
+textarea{
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  height: 200px;
+  width: 100%;
+}
+
+path{
+  fill: white;
+}
